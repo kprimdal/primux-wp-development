@@ -2,6 +2,6 @@
     "require": {
         "illuminate/support": "^5.4",
         "symfony/var-dumper": "^3.2",
-        "yahnis-elsts/plugin-update-checker": "^4.1"
+        "yahnis-elsts/plugin-update-checker": "^4.1",
     }
 }
