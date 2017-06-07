@@ -10,9 +10,20 @@
  * License: GNU GENERAL PUBLIC LICENSE
  */
 
+use Primux\Primux;
+
 if ( ! defined('ABSPATH')) {
     die; // Exit if accessed directly.
 }
+
+if ( ! defined('WP_DEBUG')) {
+    define('WP_DEBUG', true);
+}
+
+if ( ! defined('WP_DEBUG_DISPLAY')) {
+    define('WP_DEBUG_DISPLAY', true);
+}
+
 
 require __DIR__ . '/autoload.php';
 require __DIR__ . '/vendor/autoload.php';
@@ -20,5 +31,7 @@ require __DIR__ . '/vendor/autoload.php';
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
     'https://github.com/kprimdal/primux-wp-development',
     __FILE__,
-    'unique-plugin-or-theme-slug'
+    'primux-wp-development'
 );
+
+new Primux;

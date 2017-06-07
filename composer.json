@@ -3,5 +3,7 @@
         "illuminate/support": "^5.4",
         "symfony/var-dumper": "^3.2",
         "yahnis-elsts/plugin-update-checker": "^4.1",
+        "pimple/pimple": "^3.0",
+        "filp/whoops": "^2.1"
     }
 }
