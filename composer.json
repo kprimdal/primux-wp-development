@@ -5,5 +5,10 @@
         "yahnis-elsts/plugin-update-checker": "^4.1",
         "pimple/pimple": "^3.0",
         "filp/whoops": "^2.1"
+    },
+    "config": {
+        "allow-plugins": {
+            "kylekatarnls/update-helper": true
+        }
     }
 }
